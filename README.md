@@ -6,7 +6,7 @@
 
 
 
-#本项目采用Attribution-NonCommercial-ShareAlike 4.0 International 切勿商用，更具开源协议内容，商用需要获得[hello-agents](https://github.com/jjyaoao/helloagents)和作者的授权，如果基于本项目进行二次开发要必须注明原作者、来源、协议链接。使用相同协议开源。
+#本项目采用Attribution-NonCommercial-ShareAlike 4.0 International 切勿商用，根据开源协议内容，商用需要获得[hello-agents](https://github.com/jjyaoao/helloagents)和作者的授权，如果基于本项目进行二次开发要必须注明原作者、来源、协议链接。使用相同协议开源。
 
 
 ## 特性概览
