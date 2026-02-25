@@ -1,6 +1,10 @@
 # HelloAgents 增强版
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 基于 [hello-agents](https://github.com/jjyaoao/helloagents) 的增强项目，主要增加了 **Skills（技能）** 和 **Middleware（中间件）** 能力。
+
+
 
 #本项目采用Attribution-NonCommercial-ShareAlike 4.0 International 切勿商用，更具开源协议内容，商用需要获得[hello-agents](https://github.com/jjyaoao/helloagents)和作者的授权，如果基于本项目进行二次开发要必须注明原作者、来源、协议链接。使用相同协议开源。
 
