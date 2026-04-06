@@ -188,4 +188,4 @@ agent = ReActAgent(name="assistant", llm=llm, middleware=middleware)
 
 ## 依赖
 
-核心依赖：`openai`、`requests`、`python-dotenv`、`pydantic` 等，详见 `pyproject.toml` 和 `requirements.txt`。
+核心依赖：`openai`、`requests`、`python-dotenv`、`pydantic` 等，详见 `pyproject.toml` 和 `requirements.txt`！
