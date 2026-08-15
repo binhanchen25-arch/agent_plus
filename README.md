@@ -1,3 +1,5 @@
+
+
 # HelloAgents 增强版
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -132,6 +134,8 @@ HelloAgents/
 
 
 ## 快速开始
+
+需提前配置 `OPENAI_API_KEY`，或在 `HelloAgentsLLM` 中传入 `api_key`/`base_url`。
 
 ### 使用 SkillAgent
 
