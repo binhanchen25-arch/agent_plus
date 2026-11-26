@@ -99,7 +99,22 @@ class SkillLoader:
         exclude: Optional[List[str]] = None,
         root: Optional[Path] = None,
     ) -> List[str]:
-        """发现目录下匹配模式的文件，返回相对于 root 的路径列表"""
+        """发现目录下符合指定模式的文件。
+    
+        Args:
+            base: 待扫描的目录路径。
+            patterns: 文件名匹配模式列表，支持 glob 通配符。
+            exclude: 需要排除的文件名列表，默认为空。
+            root: 相对路径的基准目录，默认使用 base。
+    
+        Returns:
+            List[str]: 匹配文件相对于 root 的路径列表。
+            如果 base 不存在或不是目录，则返回空列表。
+    
+        Notes:
+            仅扫描 glob 模式匹配的普通文件，不递归遍历子目录，
+            除非 patterns 中显式包含递归匹配模式。
+        """
         exclude = exclude or []
         root = root or base
         result = []
